@@ -1,0 +1,85 @@
+body {  
+	background:#2F243A;
+ font-family: 'Noir-Regular';      
+ margin:0;
+ padding: 0;
+  
+}
+
+#container{
+display:inline-block;
+    border: solid pink 0px;
+    margin-left: 4%;
+    vertical-align: top;
+    width: 1320px;
+    height: 780px;
+}
+#p1 {  
+	position: absolute;
+	left:50%;
+ font-family: 'Noir-Regular';      
+ size:300%;
+
+}
+
+@font-face {
+  font-family: 'Noir-Regular';
+  src:  url('Noir-Regular.ttf') format('truetype'),
+       
+}
+
+span{
+  font-size:400px;
+    line-height: 100%;
+    padding:5px;
+    color: #170312;
+    
+    text-align: justify;
+    padding-bottom: 5px
+    }
+
+span > span
+{
+    color: #8D99AE;
+}
+ 
+
+
+.outer-container {
+   height: 100vh;
+   width: 22vw;
+  overflow: scroll;
+  display:inline-block;
+ 
+}
+
+.one {
+  background:#2F243A;
+  border: solid #2F243A 5px;
+}
+
+.two {
+  background:#444054;
+  border: solid #444054 5px;
+}
+
+.three{
+   background:#2F243A;
+   border: solid #2F243A 5px;
+}
+.four{
+   background:#444054;
+   border: solid #444054 5px;
+}
+
+/* @font-face {
+ font-family: 'Noir-Regular' ;
+   src: url('/font/Noir-Regular.ttf') format('woff2');
+    src: url('/font/Noir-Regular.ttf') format('woff');
+     src: url('/font/Noir-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+  
+  
+
+}
